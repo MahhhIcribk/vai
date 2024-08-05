@@ -1,0 +1,174 @@
+a<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon configuration -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/appletouch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon16x16.png"
+    />
+    <link rel="manifest" href="assets/barbearia.webmanifest" />
+    <link rel="mask-icon" href="assets/safaripinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#e6e6e6" />
+
+    <title>Contato - Gentlemen Club</title>
+
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/contact-us.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1>
+          <a href="index.html">
+            <img
+              src="assets/barbeariaalura2.png"
+              alt="Gentlemen Club Barbershop"
+            />
+          </a>
+        </h1>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Serviços</a></li>
+            <li><a href="contact-us.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form action="">
+        <div>
+          <label for="user-name">Nome completo</label>
+          <input type="text" id="user-name" class="user-input" required />
+
+          <label for="user-email">Seu email</label>
+          <input
+            type="email"
+            id="user-email"
+            class="user-input"
+            required
+            placeholder="seumail@domínio.com"
+          />
+
+          <label for="user-telephone">Seu telefone</label>
+          <input
+            type="tel"
+            id="user-telephone"
+            class="user-input"
+            required
+            placeholder="(xx) xxxxx-xxxx"
+          />
+
+          <label for="user-message">Deixe um recado</label>
+          <textarea id="user-message" cols="50" rows="10" required></textarea>
+        </div>
+
+        <fieldset>
+          <legend class="title-legend">Como prefere nosso contato?</legend>
+          <label for="radio-email"
+            ><input
+              type="radio"
+              name="contact"
+              value="radio-email"
+              id="radio-email"
+            />
+            Por email</label
+          >
+
+          <label for="radio-call"
+            ><input
+              type="radio"
+              name="contact"
+              value="radio-call"
+              id="radio-call"
+            />
+            Por ligação</label
+          >
+
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contact"
+              value="radio-whatsapp"
+              id="radio-whatsapp"
+              checked
+            />
+            Por whatsapp</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend class="title-legend">Qual horário que prefere ser atendido?</legend>
+          <select name="" id="">
+            <option value="">Manhã</option>
+            <option value="">Tarde</option>
+            <option value="">Noite</option>
+          </select>
+        </fieldset>
+
+        <label class="checkbox">
+          <input type="checkbox" checked /> Deseja assinar nossa
+          Newsletter?</label
+        >
+
+        <input type="submit" value="Enviar" class="button" />
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>8h - 20h</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>8h - 20h</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>8h - 20h</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <img
+        src="assets/footer.png"
+        alt="Logo Gentlemen Club apenas o caelo e a barba"
+      />
+      <p class="copyright">&copy; Copyright Gentlemen Club - 2020</p>
+    </footer>
+  </body>
+</html>

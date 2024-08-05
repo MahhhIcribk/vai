@@ -1,0 +1,84 @@
+/* 
+
+cores padrão #c6c6c6 #cfd8dc #607d8b #1e2b31 #000000
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  header {
+    background: #cfd8dc;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    margin: 0 auto;
+    position: relative;
+    width: 940;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 img {
+    margin-left: 20px;
+    max-width: 40%;
+  }
+  
+  h1 img:hover{
+    cursor: pointer;
+  }
+  
+  nav {
+    position: absolute;
+    right: 60px;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 8px;
+    margin: 0, 0, 0, 15px;
+  }
+  
+  nav a {
+    text-transform: uppercase;
+    color: #37474f;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 200ms;
+  }
+  
+  nav a:hover {
+    color: #607d8b;
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    background: url("../assets/backgroundfooter.jpg");
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    vertical-align: bottom;
+  }
+  
+  footer img {
+    max-width: 60px;
+  }
+  
+  .copyright {
+    color: #cfd8dc;
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  
