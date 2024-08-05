@@ -13,14 +13,15 @@
 
 html, body {
     min-height: 100vh;
-    background-color: black;
+    background-color: lightgreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-    background-color: radial-gradient(green,lightgreen);
+    background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
     
 }
 
