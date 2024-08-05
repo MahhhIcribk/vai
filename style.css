@@ -13,12 +13,12 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgrey;
+    background-color: linear-gradient(green, lightgreen);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-    background-color: linear-gradient(green,lightgreen);
+    background-color: radial-gradient(green,lightgreen);
     color: white;
     text-align: center;
     
